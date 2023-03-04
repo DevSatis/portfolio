@@ -1,10 +1,18 @@
-import React from 'react'
+import React from 'react';
+import styled from 'styled-components';
+import Navbar from './Navbar';
+
+const Section = styled.div`
+  height: 100vh;
+  scroll-snap-align: center;
+
+`
 
 const Owner = () => {
   return (
-    <div className='owner'>
-        Owner
-    </div>
+    <Section className='owner'>
+        <Navbar />
+    </Section>
   )
 }
 
